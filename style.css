@@ -1,0 +1,66 @@
+.weatherForm{
+    display: flex;
+    justify-content: center;
+}
+.cityInput{
+    margin: 1rem;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 5px;
+}
+
+button[type=submit]{
+    margin: 1rem;
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px;   
+    background-color: chartreuse;
+}
+
+.card{
+    background-color: beige;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    margin-right: 30%;
+    margin-left: 30%;
+    border-radius: 5px;
+}
+
+
+.city{
+ font-weight: bold;
+ font-size: 5rem;
+ margin-bottom: 0;
+}
+
+.temp{
+ font-weight: bold;
+ font-size: 3rem;
+ margin-top: 0;
+ margin-bottom: 0;
+}
+
+.humidity{
+ font-weight: bold;
+ font-size: 1.3rem;
+}
+
+.description{
+ font-weight: bold;
+ font-style: italic;
+ font-size: 2rem;
+}
+
+.error{
+ color: red;
+ font-size: 1.5rem;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+p{
+    display: flex;
+    justify-content: center;
+}
